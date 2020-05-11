@@ -1,0 +1,9 @@
+body {
+  background: lightgray;
+}
+.btn-back {
+  border: 2px solid #BC8F8F;
+  background: #BC8F8F;
+  font-size: 16px;
+  padding: 5px 20px;
+}
