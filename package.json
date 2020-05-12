@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
-    "dev": "parcel src/index.html src/index1.html src/addition.json",
-    "build": "parcel build src/index.html src/index1.html src/addition.json"
+    "dev": "parcel src/index.html src/index1.html static/addition.json",
+    "build": "parcel build src/index.html src/index1.html static/addition.json"
   },
   "directories": {
     "doc": "doc"
@@ -19,6 +19,8 @@
     "parcel-bundler": "^1.12.4",
     "popper.js": "^1.16.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "parcel-plugin-static-files-copy": "^2.3.1"
+  },
   "description": ""
 }
