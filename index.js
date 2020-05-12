@@ -24,10 +24,4 @@ btn.addEventListener("click", function() {
   if (addCounter >= 1) {
     btn.classList.add("hide");
   }
-
-  function
-  renderHTML(data) {
-
-  }
-
 });
