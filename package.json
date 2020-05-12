@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
-    "dev": "parcel src/index.html src/index1.html static/addition.json",
-    "build": "parcel build src/index.html src/index1.html static/addition.json"
+    "dev": "parcel index.html index1.html addition.json",
+    "build": "parcel build index.html index1.html addition.json"
   },
   "directories": {
     "doc": "doc"
+  },
+  "staticFiles": {
+    "staticPath": "static",
+    "watcherGlob": "**"
   },
   "keywords": [],
   "author": "",
